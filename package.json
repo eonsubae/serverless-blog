@@ -1,0 +1,26 @@
+{
+  "name": "serverless-react-apollo-blog",
+  "version": "1.0.0",
+  "description": "Serverless framework",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack",
+    "build": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eonsubae/serverless-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eonsubae/serverless-blog/issues"
+  },
+  "homepage": "https://github.com/eonsubae/serverless-blog#readme",
+  "dependencies": {
+    "apollo-server": "^2.13.0",
+    "graphql": "^15.0.0"
+  }
+}
