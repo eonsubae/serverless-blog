@@ -7,6 +7,11 @@ module.exports = {
     path: path.resolve(__dirname, './client/dist'),
   },
   mode: 'development',
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    compress: true,
+    port: 8081,
+  },
   module: {
     rules: [
       {
