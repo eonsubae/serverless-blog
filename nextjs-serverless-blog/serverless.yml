@@ -1,0 +1,4 @@
+myApp:
+  component: serverless-next.js@1.9.5
+  inputs:
+    domain: 'eonsubae.com'

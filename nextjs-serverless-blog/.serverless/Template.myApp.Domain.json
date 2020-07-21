@@ -1,0 +1,13 @@
+{
+  "region": "us-east-1",
+  "privateZone": false,
+  "domain": "eonsubae.com",
+  "subdomains": [
+    {
+      "domain": "www.eonsubae.com",
+      "distributionId": "E2NL7AS68YHA3D",
+      "url": "https://d29f4bikec6ukx.cloudfront.net",
+      "type": "awsCloudFront"
+    }
+  ]
+}
