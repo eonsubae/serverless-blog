@@ -1,5 +1,5 @@
-@import "../absract/mixin.scss";
-@import "../absract/variables.scss";
+@import '../absract/mixin.scss';
+@import '../absract/variables.scss';
 
 .index-main {
   @include flexCenter;
@@ -8,9 +8,75 @@
 }
 
 .introduce-section {
+  @include flexCenter;
+
+  position: relative;
   width: 40%;
   height: 100%;
   background-color: $main-leftside-bg;
+
+  .introduce-container {
+    @include absCenter;
+    left: 84%;
+    @include flexCenter;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 100%;
+    margin-left: 13.5rem;
+
+    div {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.introduce {
+  &__hello {
+    font-size: 2.4rem;
+    color: $main-hello-text;
+  }
+
+  &__name {
+    font-size: 6rem;
+    font-weight: 700;
+    color: $main-name-text;
+  }
+
+  &__pr {
+    font-size: 3rem;
+    color: $main-job-text;
+  }
+
+  &__contact {
+    position: relative;
+    font-size: 2rem;
+    color: $main-job-text;
+
+    &::before {
+      position: absolute;
+      top: 50%;
+      right: -30px;
+      width: 30px;
+      height: 2px;
+      content: '';
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      background: rgba(255, 255, 255, 0.8);
+    }
+
+    &::after {
+      position: absolute;
+      top: 0;
+      right: -40px;
+      bottom: 0;
+      content: '';
+      width: 100%;
+      background: #aea5a5;
+      z-index: -1;
+    }
+  }
 }
 
 .photo-section {

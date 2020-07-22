@@ -9,7 +9,7 @@ const Header = () => (
       <Link href="/">
         <a>
           <h1 className="main-header__title">
-            <span>Eonsoo</span>
+            <span>Eonsu</span>
             <span>.bae</span>
           </h1>
         </a>
