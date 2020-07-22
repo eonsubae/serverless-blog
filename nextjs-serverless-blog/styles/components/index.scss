@@ -1,0 +1,20 @@
+@import "../absract/mixin.scss";
+@import "../absract/variables.scss";
+
+.index-main {
+  @include flexCenter;
+
+  height: 100vh;
+}
+
+.introduce-section {
+  width: 40%;
+  height: 100%;
+  background-color: $main-leftside-bg;
+}
+
+.photo-section {
+  width: 60%;
+  height: 100%;
+  background-color: $main-rightside-bg;
+}
