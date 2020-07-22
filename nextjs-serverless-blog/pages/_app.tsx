@@ -1,5 +1,7 @@
 import App from 'next/app';
+
 import Layout from '../components/_App/Layout';
+import '../styles/base/base.scss';
 
 class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {
