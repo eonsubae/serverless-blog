@@ -1,1 +1,1 @@
-{"pages":{"ssr":{"dynamic":{},"nonDynamic":{"/_error":"pages/_error.js","/_document":"pages/_document.js","/_app":"pages/_app.js"}},"html":{"dynamic":{},"nonDynamic":{"/index":"pages/index.html","/":"pages/index.html","/404":"pages/404.html"}}},"publicFiles":{"/favicon.ico":"favicon.ico","/vercel.svg":"vercel.svg"},"cloudFrontOrigins":{}}
+{"pages":{"ssr":{"dynamic":{},"nonDynamic":{"/_error":"pages/_error.js","/index":"pages/index.js","/":"pages/index.js"}},"html":{"dynamic":{},"nonDynamic":{}}},"publicFiles":{"/favicon.ico":"favicon.ico"},"cloudFrontOrigins":{}}

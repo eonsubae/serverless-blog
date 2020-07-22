@@ -1,0 +1,6 @@
+@import "../../absract/variables.scss";
+
+.navi__anchor:hover,
+.current-path {
+  color: $header-nav-hover-bg;
+}
