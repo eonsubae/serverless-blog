@@ -16,6 +16,10 @@
     font-size: 2rem;
     font-weight: 700;
     color: #ffffff;
+
+    & span:last-child {
+      color: $header-last-name-text;
+    }
   }
 }
 
@@ -24,7 +28,7 @@
 
   width: 40%;
   height: 100%;
-  padding-left: 15rem;
+  padding-left: 14rem;
   background-color: $main-leftside-bg;
 }
 
@@ -34,12 +38,6 @@
   justify-content: flex-start;
   width: 60%;
   height: 100%;
-  padding-left: 15rem;
+  padding-left: 10rem;
   background-color: $main-rightside-bg;
-
-  &__anchor {
-    margin-left: 2rem;
-    font-size: 1.2rem;
-    color: #ffffff;
-  }
 }
