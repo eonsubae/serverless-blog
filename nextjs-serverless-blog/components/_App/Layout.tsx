@@ -9,6 +9,12 @@ function Layout({ children }) {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
+        <meta property="og:title" content="Eonsu Bae" />
+        <meta property="og:description" content="A Cutting Edge Engineer" />
+        <meta
+          property="og:image"
+          content="https://eonsubae.com/favicon/android-chrome-192x192.png"
+        />
         <link
           href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap"
           rel="stylesheet"
