@@ -27,6 +27,18 @@
 
     div {
       margin-bottom: 2rem;
+
+      @include respond(tab-land) {
+        margin-bottom: 4rem;
+      }
+    }
+
+    @include respond(tab-land) {
+      left: 65%;
+    }
+
+    @include respond(tab-port) {
+      left: 42%;
     }
   }
 }
@@ -35,17 +47,38 @@
   &__hello {
     font-size: 2.4rem;
     color: $main-hello-text;
+
+    @include respond(tab-land) {
+      font-size: 4rem;
+    }
+
+    @include respond(tab-port) {
+      font-size: 3rem;
+    }
   }
 
   &__name {
     font-size: 7rem;
     font-weight: 700;
     color: $main-name-text;
+
+    @include respond(tab-land) {
+      white-space: nowrap;
+    }
+
+    @include respond(tab-port) {
+      font-size: 5rem;
+    }
+
   }
 
   &__pr {
     font-size: 3.5rem;
     color: $main-job-text;
+
+    @include respond(tab-port) {
+      font-size: 2.5rem;
+    }
   }
 
   &__contact {
@@ -75,6 +108,14 @@
       width: 100%;
       background: #aea5a5;
       z-index: -1;
+    }
+
+    @include respond(tab-land) {
+      font-size: 3.5rem;
+    }
+
+    @include respond(tab-port) {
+      font-size: 2rem;
     }
   }
 }
