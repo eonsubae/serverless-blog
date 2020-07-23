@@ -1,0 +1,10 @@
+@import "../../absract/variables.scss";
+@import "../../absract/mixin.scss";
+
+.about-main {
+  @include flexCenter;
+
+  width: 100vw;
+  height: 100vh;
+  background-color: $about-bg;
+}

@@ -4,7 +4,7 @@
 .index-main {
   @include flexCenter;
 
-  height: 100vh;
+  height: 100%;
 }
 
 .introduce-section {
@@ -38,13 +38,13 @@
   }
 
   &__name {
-    font-size: 6rem;
+    font-size: 7rem;
     font-weight: 700;
     color: $main-name-text;
   }
 
   &__pr {
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: $main-job-text;
   }
 

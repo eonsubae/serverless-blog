@@ -15,7 +15,7 @@
   &__title {
     font-size: 2rem;
     font-weight: 700;
-    color: #ffffff;
+    color: $header-nav-text;
 
     & span:last-child {
       color: $header-last-name-text;
@@ -29,7 +29,6 @@
   width: 40%;
   height: 100%;
   padding-left: 14rem;
-  background-color: $main-leftside-bg;
 }
 
 .navi {
@@ -39,5 +38,4 @@
   width: 60%;
   height: 100%;
   padding-left: 10rem;
-  background-color: $main-rightside-bg;
 }
