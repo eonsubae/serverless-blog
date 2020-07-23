@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet';
 
 import '../styles/components/index.scss';
 
-export default function Home() {
+const Index = () => {
   return (
     <>
       <Helmet>
@@ -32,4 +32,6 @@ export default function Home() {
       </main>
     </>
   );
-}
+};
+
+export default Index;
