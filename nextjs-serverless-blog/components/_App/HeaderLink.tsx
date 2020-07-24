@@ -30,7 +30,7 @@ const HeaderLink = ({
   }
 
   return (
-    <li onClick={closeMenu ? () => closeMenu : null}>
+    <li onClick={closeMenu ? () => closeMenu() : null}>
       <Link href={path}>
         <a className={classes}>{text}</a>
       </Link>
