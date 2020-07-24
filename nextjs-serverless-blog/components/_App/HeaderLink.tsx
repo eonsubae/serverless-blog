@@ -2,16 +2,15 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 import '../../styles/components/_App/header-link.scss';
-import { useState } from 'react';
 
 const HeaderLink = ({
   isMobile,
-  isClicked,
+  closeMenu,
   path,
   text,
 }: {
   isMobile?: boolean;
-  isClicked?: boolean;
+  closeMenu?: Function;
   path: string;
   text: string;
 }) => {
@@ -30,13 +29,13 @@ const HeaderLink = ({
     classes = classes[0];
   }
 
-  return isClicked ? (
-    <li>
+  return (
+    <li onClick={closeMenu ? closeMenu : null}>
       <Link href={path}>
         <a className={classes}>{text}</a>
       </Link>
     </li>
-  ) : null;
+  );
 };
 
 export default HeaderLink;

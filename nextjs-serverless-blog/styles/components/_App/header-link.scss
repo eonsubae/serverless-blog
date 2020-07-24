@@ -7,12 +7,16 @@
 
 .current-path {
   color: $header-nav-hover-bg !important;
+
+  @include respond(phone) {
+    color: $header-mobile-nav-hover-bg !important;
+  }
 }
 
 .navi__anchor {
   margin-left: 4rem;
   font-size: 1.2rem;
-  color: #ffffff;
+  color: $header-nav-text;
 
   @include respond(tab-land) {
     font-size: 1.8rem;
@@ -21,5 +25,10 @@
   @include respond(tab-port) {
     margin-left: 2rem;
     font-size: 1.3rem;
+  }
+
+  &--mobile {
+    color: $header-nav-text;
+    font-size: 3rem;
   }
 }

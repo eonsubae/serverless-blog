@@ -71,26 +71,70 @@
     display: none;
   }
 
-  &-mobile {}
-
-  &-mobile__btn-container {
+  &-mobile {
     @include flexCenter;
     flex-direction: column;
+    justify-content: flex-start;
 
+    position: absolute;
+    top: -1rem;
+    right: 0;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+
+    .mobile-menu-close-btn {
+      @include flexCenter;
+      align-self: flex-end;
+      width: 5rem;
+      height: 5rem;
+      font-size: 3rem;
+      color: $header-mobile-menu-close-btn-bg;
+      transition: all 3s ease-in-out;
+    }
+
+    .mobile-menu-container {
+      @include absCenter;
+      width: 100%;
+
+      li {
+        @include flexCenter;
+        align-self: center;
+        width: 100%;
+        height: 5rem;
+        margin: 4rem 0 4rem 0;
+      }
+    }
+
+  }
+
+  &-mobile__btn-container {
+    display: none;
     position: absolute;
     top: 0;
     right: 0;
     width: 5rem;
     height: 5rem;
-    background-color: #b8b0b0;
-    border-radius: 35px;
+    background-color: $header-mobile-btn-bg;
+    border-radius: 25px;
+    overflow: hidden;
 
-    div {
+    @include respond(phone) {
+      @include flexCenter;
+      flex-direction: column;
+    }
+
+    .mobile-btn-line {
       width: 100%;
-      height: 5px;
-      background-color: #666666;
+      height: 4px;
+      background-color: $header-mobile-btn-content-bg;
       border-radius: 3px;
       margin: 5px 0 5px 0;
     }
   }
+}
+
+.btn-clicked {
+  transform: scale(80);
+  transition: all 1s ease-in-out;
 }

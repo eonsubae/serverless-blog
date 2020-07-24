@@ -7,6 +7,10 @@ import HeaderLink from './HeaderLink';
 const Header = () => {
   const [isClicked, setIsClicked]: [boolean, Function] = useState(false);
 
+  const onMobileMenuClicked = () => {
+    setIsClicked(!isClicked);
+  };
+
   return (
     <header className="main-header">
       <section className="title-container">
@@ -25,41 +29,52 @@ const Header = () => {
         <HeaderLink path="/practice" text="PRACTICE AREAS" />
         <HeaderLink path="/contact" text="CONTACT" />
       </nav>
-      <nav className="navi-mobile">
-        <HeaderLink
-          isMobile={true}
-          isClicked={isClicked}
-          path="/"
-          text="HOME"
-        />
-        <HeaderLink
-          isMobile={true}
-          isClicked={isClicked}
-          path="/about"
-          text="ABOUT ME"
-        />
-        <HeaderLink
-          isMobile={true}
-          isClicked={isClicked}
-          path="/practice"
-          text="PRACTICE AREAS"
-        />
-        <HeaderLink
-          isMobile={true}
-          isClicked={isClicked}
-          path="/contact"
-          text="CONTACT"
-        />
-      </nav>
+      {isClicked ? (
+        <nav className="navi-mobile">
+          <div className="mobile-menu-close-btn" onClick={onMobileMenuClicked}>
+            X
+          </div>
+          <div className="mobile-menu-container">
+            <HeaderLink
+              isMobile={true}
+              closeMenu={onMobileMenuClicked}
+              path="/"
+              text="HOME"
+            />
+            <HeaderLink
+              isMobile={true}
+              closeMenu={onMobileMenuClicked}
+              path="/about"
+              text="ABOUT ME"
+            />
+            <HeaderLink
+              isMobile={true}
+              closeMenu={onMobileMenuClicked}
+              path="/practice"
+              text="PRACTICE AREAS"
+            />
+            <HeaderLink
+              isMobile={true}
+              closeMenu={onMobileMenuClicked}
+              path="/contact"
+              text="CONTACT"
+            />
+          </div>
+        </nav>
+      ) : null}
       <nav
-        className="navi-mobile__btn-container"
-        onClick={() => setIsClicked(!isClicked)}
+        className={
+          isClicked
+            ? ['navi-mobile__btn-container', 'btn-clicked'].join(' ')
+            : 'navi-mobile__btn-container'
+        }
+        onClick={onMobileMenuClicked}
       >
         {isClicked ? null : (
           <>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div className="mobile-btn-line"></div>
+            <div className="mobile-btn-line"></div>
+            <div className="mobile-btn-line"></div>
           </>
         )}
       </nav>
