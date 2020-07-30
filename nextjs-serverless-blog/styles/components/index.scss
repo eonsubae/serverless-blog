@@ -140,5 +140,9 @@
 .photo-section {
   width: 60%;
   height: 100%;
-  background-color: $main-rightside-bg;
+  background: url('/img/me/bg/pf1-g.jpg');
+
+  @include respond(tab-land) {
+    background: $main-rightside-bg;
+  }
 }
