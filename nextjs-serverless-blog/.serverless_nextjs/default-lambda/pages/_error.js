@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "zDWq");
+/******/ 	return __webpack_require__(__webpack_require__.s = "wgK4");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2123,7 +2123,7 @@ exports.sendPayload = sendPayload;
 /***/ "LZ9C":
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"devFiles\":[],\"lowPriorityFiles\":[\"static/el4vo5h8DJDIHvxPSgdv6/_buildManifest.js\",\"static/el4vo5h8DJDIHvxPSgdv6/_ssgManifest.js\"],\"pages\":{\"/\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/framework.01fb8c9091ebbaaf6515.js\",\"static/css/styles.d215a15e.chunk.css\",\"static/chunks/styles.60efba4072003417ca54.js\",\"static/runtime/main-1ddc48456251771a4265.js\"],\"/_app\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/framework.01fb8c9091ebbaaf6515.js\",\"static/chunks/98ce45569971aa88a2738f23de4656c6fa3d420f.d30249056b7e0a232dd8.js\",\"static/css/styles.d215a15e.chunk.css\",\"static/chunks/styles.60efba4072003417ca54.js\",\"static/runtime/main-1ddc48456251771a4265.js\"],\"/_error\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/framework.01fb8c9091ebbaaf6515.js\",\"static/runtime/main-1ddc48456251771a4265.js\"],\"/_polyfills\":[\"static/runtime/polyfills-b99df05233331b7e84b8.js\"],\"/about\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/framework.01fb8c9091ebbaaf6515.js\",\"static/css/styles.d215a15e.chunk.css\",\"static/chunks/styles.60efba4072003417ca54.js\",\"static/runtime/main-1ddc48456251771a4265.js\"],\"/index\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/framework.01fb8c9091ebbaaf6515.js\",\"static/css/styles.d215a15e.chunk.css\",\"static/chunks/styles.60efba4072003417ca54.js\",\"static/runtime/main-1ddc48456251771a4265.js\"],\"/robots.txt\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/runtime/main-1ddc48456251771a4265.js\"],\"/sitemap.xml\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/runtime/main-1ddc48456251771a4265.js\"]}}");
+module.exports = JSON.parse("{\"devFiles\":[],\"lowPriorityFiles\":[\"static/OjO8Orh5tePtPdA51rRZx/_buildManifest.js\",\"static/OjO8Orh5tePtPdA51rRZx/_ssgManifest.js\"],\"pages\":{\"/\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/framework.01fb8c9091ebbaaf6515.js\",\"static/css/styles.d215a15e.chunk.css\",\"static/chunks/styles.60efba4072003417ca54.js\",\"static/runtime/main-1ddc48456251771a4265.js\"],\"/_app\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/framework.01fb8c9091ebbaaf6515.js\",\"static/chunks/e59e48dcdc3a93d5c67f21fd38992bf1c64b1100.d30249056b7e0a232dd8.js\",\"static/css/styles.d215a15e.chunk.css\",\"static/chunks/styles.60efba4072003417ca54.js\",\"static/runtime/main-1ddc48456251771a4265.js\"],\"/_error\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/framework.01fb8c9091ebbaaf6515.js\",\"static/runtime/main-1ddc48456251771a4265.js\"],\"/_polyfills\":[\"static/runtime/polyfills-b99df05233331b7e84b8.js\"],\"/about\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/framework.01fb8c9091ebbaaf6515.js\",\"static/css/styles.d215a15e.chunk.css\",\"static/chunks/styles.60efba4072003417ca54.js\",\"static/runtime/main-1ddc48456251771a4265.js\"],\"/index\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/framework.01fb8c9091ebbaaf6515.js\",\"static/css/styles.d215a15e.chunk.css\",\"static/chunks/styles.60efba4072003417ca54.js\",\"static/runtime/main-1ddc48456251771a4265.js\"],\"/robots.txt\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/runtime/main-1ddc48456251771a4265.js\"],\"/sitemap.xml\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/runtime/main-1ddc48456251771a4265.js\"]}}");
 
 /***/ }),
 
@@ -6540,7 +6540,7 @@ exports.SERVER_PROPS_ID = '__N_SSP';
 
 /***/ }),
 
-/***/ "zDWq":
+/***/ "wgK4":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6640,10 +6640,10 @@ __webpack_require__.r(__webpack_exports__);
         getStaticPaths,
         reactLoadableManifest,
         canonicalBase: "",
-        buildId: "el4vo5h8DJDIHvxPSgdv6",
+        buildId: "OjO8Orh5tePtPdA51rRZx",
         assetPrefix: "",
         runtimeConfig: runtimeConfig.publicRuntimeConfig || {},
-        previewProps: {previewModeId:"b7a3acb047ce1828f03e961cd3c135c1",previewModeSigningKey:"a52bb9e718f0907a868bf981e0452d125351b70bfee7b2865dd42863021ffbcf",previewModeEncryptionKey:"875d71bc593116e77f404b3ba91370af7dfd2b6b564552eaea9b168a3129d195"},
+        previewProps: {previewModeId:"5a1fa22dce1063d570fbfedfc066b3a2",previewModeSigningKey:"6270e18739fdc48958831aec6af61b968114ed3711859fa4c6e3d7f7a26db7f0",previewModeEncryptionKey:"b387ff41771d1e81de5949d5a6c66b02d5720c2e02adcc377a5e574f251b3b25"},
         env: process.env,
         basePath: "",
         ..._renderOpts
@@ -6657,7 +6657,7 @@ __webpack_require__.r(__webpack_exports__);
         if (parsedUrl.pathname.match(/_next\/data/)) {
           _nextData = true
           parsedUrl.pathname = parsedUrl.pathname
-            .replace(new RegExp('/_next/data/el4vo5h8DJDIHvxPSgdv6/'), '/')
+            .replace(new RegExp('/_next/data/OjO8Orh5tePtPdA51rRZx/'), '/')
             .replace(/\.json$/, '')
         }
 
